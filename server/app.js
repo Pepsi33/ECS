@@ -3,7 +3,7 @@ var express = require("express");
 var app = new express();
 
 //加载token模块
-require("./token")(app)
+require("./token.js")(app)
 
 var path = require("path");
 var saticpath = path.join(__dirname,"../");
