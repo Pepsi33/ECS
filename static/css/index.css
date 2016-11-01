@@ -70,7 +70,7 @@ html, body {
           animation: rotating 1.2s linear infinite;
   z-index: 3;
   cursor: pointer;
-  background: url("../../images/music1.png");
+  background: url("images/music1.png");
   background-repeat: no-repeat;
   background-size: cover; }
   #audio_btn audio {
@@ -88,7 +88,7 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../../images/bg.png");
+  background-image: url("images/bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%; }
   .swiper-slide ul li {
@@ -106,7 +106,7 @@ html, body {
   background-position: 50% 50%;
   background-origin: content-box; }
 .swiper-container #page-1 .bg {
-  background-image: url("../../images/img01.jpg"); }
+  background-image: url("../images/img01.jpg"); }
 .swiper-container #page-1 ul {
   background-image: none;
   padding: 0; }
@@ -134,7 +134,7 @@ html, body {
     right: 2%;
     position: absolute; }
 .swiper-container #page-2 .bg {
-  background-image: url("../../images/img02.jpg"); }
+  background-image: url("../images/img02.jpg"); }
 .swiper-container #page-2 ul {
   padding-top: 15%; }
   .swiper-container #page-2 ul li p {
@@ -147,7 +147,7 @@ html, body {
     font-family: 'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;
     padding: 1% 0 0 0; }
 .swiper-container #page-3 .bg {
-  background-image: url("../../images/img03.jpg"); }
+  background-image: url("../images/img03.jpg"); }
 .swiper-container #page-3 ul {
   padding-top: 18%; }
   .swiper-container #page-3 ul li p {
