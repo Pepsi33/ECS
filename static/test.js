@@ -18,7 +18,7 @@ $(function(){
 			'onMenuShareTimeline',
             'onMenuShareAppMessage',
             'onMenuShareQQ',
-            'onMenuShareWeibo'
+            'onMenuShareWeibo',
             //获取用户网络状态权限
             'onGetNetworkType'
 		].join(",")
