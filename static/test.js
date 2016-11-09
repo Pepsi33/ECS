@@ -2,7 +2,7 @@ var obj = {
     title: '分享标题',
     desc: '分享内容',
     //分享链接
-    link: "http://wx.jscook.cn/",
+    link: "http://g24.jscook.cn/",
     //分享的图片
     imgUrl: "http://www.jscss.cc/static/images/jscss.cc.ico",
     success: function() {
