@@ -1,43 +1,25 @@
 require.config({
     baseUrl:"js/",
     paths:{
-        jquery:"jquery-1.11.3",
-        sp:"swiper",
-        th:"touch",
-        sa:"swiper.animate1.0.2.min",
+        $:"jquery-1.11.3",
+        bt:'bootstrap.min',
         fl:"flexible",
-        fc:"flexible_css",
-        ms:"music",
-        fs:"setFontSize"
+        fc:"flexible_css"
     },
     shim:{ // 通过 shim 的配置来把非 AMD 编写的模块转为 AMD 的模块
-        jquery:{
+        $:{
             deps:[],
             exports:"window.jQuery"
         },
-        sp:{
-            exports:"sp"
-        },
-        sa:{
-            deps:["sp"], // 定义依赖模块
-            exports:"sa"
-        },
-        th:{
-            exports:"th"
+        bt:{
+        	deps:["$"],
+            exports:"bt"
         },
         fl:{
             exports:"fl"
         },
         fc:{
             exports:"fc"
-        },
-        ms:{
-            deps:["jquery"],
-            exports:"ms"
-        },
-        fs:{
-            deps:["jquery"],
-            exports:"fs"
         }
     }
 });
