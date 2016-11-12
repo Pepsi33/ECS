@@ -1,0 +1,22 @@
+
+.home{
+	position: absolute;
+	left:50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(0,0,0,0);
+}
+.home .list-group a.title{
+	text-align: center;
+	font-size:16px;
+}
+.home .list-group a{
+	background:rgba(0,0,0,0.3);
+	color:#fff;
+	font-size:14px;
+}
+.home .list-group a:hover{
+	color:#fff;
+	background: rgba(0,0,0,0.9);
+}
+
