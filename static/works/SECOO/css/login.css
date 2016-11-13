@@ -24,7 +24,7 @@
 .login-box .error_msg{
 	height: auto;
     border: 1px solid #ffac76;
-    background: #ffffcf url(../images/login/error.jpg) no-repeat left center;
+    background: #ffffcf url(../images/login/error.jpg) no-repeat left;
     padding-left: 30px;
     margin-bottom: 12px;
     line-height: 25px;

@@ -4,16 +4,20 @@ require(["$","bt","fl","fc","hash"],function($,bt,fl,fc,hash){
     $(function(){
     	(function(){
     		var oBody = $('body');
+    		var x = parseInt(Math.random()*17+1);
+    		oBody.css({
+    			backgroundImage:"url(img/image"+x+".jpg)"
+    		})
 	    	oBody.on('click',function(e){
-	    		var num = parseInt(Math.random()*5+1);
+	    		var num = parseInt(Math.random()*17+1);
 	    		if(e.target==oBody[0]){
 	    			oBody.css({
-		    			backgroundImage:"url(img/img"+num+".jpg)"
+		    			backgroundImage:"url(img/image"+num+".jpg)"
 		    		})
 	    			return false;
 	    		}
-	    		
 	    	})
+
     	})()
     	
     	

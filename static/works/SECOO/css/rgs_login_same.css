@@ -2,7 +2,7 @@
 /*****寺库注册页面和登录页面共同样式表*****/
 
 body{
-	background:#fdf8f4 url(../images/register/bgImg.jpg) no-repeat center;
+	background:#fdf8f4 url(../images/register/bgImg.jpg) no-repeat;
 }
 	/**头部**/
 .register-header{
