@@ -20,6 +20,7 @@ a:hover { color: #f60; text-decoration:none; }
 }
 .clearfix{zoom:1;/*这个转为解决IE6的bug的*/}
 
+
 html{
 	width: 100%;
 	height: 100%;
@@ -39,6 +40,14 @@ body{
 ::-webkit-scrollbar{
 display:none;
 } 
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+	#home,#works,#about{
+		width:60%;
+	}
+}
+	
+
 
 /*头部样式*/
 header{
@@ -98,3 +107,5 @@ footer a{
 	height:40px;
 	line-height: 40px;
 }
+
+	
